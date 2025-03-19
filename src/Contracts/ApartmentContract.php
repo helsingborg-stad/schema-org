@@ -151,5 +151,4 @@ interface ApartmentContract
     public function url($url);
 
     public function yearBuilt($yearBuilt);
-
 }

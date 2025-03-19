@@ -57,5 +57,4 @@ interface WriteActionContract
     public function target($target);
 
     public function url($url);
-
 }

@@ -275,5 +275,4 @@ interface MusicCompositionContract
     public function workExample($workExample);
 
     public function workTranslation($workTranslation);
-
 }

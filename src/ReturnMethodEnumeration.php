@@ -2,10 +2,10 @@
 
 namespace Spatie\SchemaOrg;
 
-use \Spatie\SchemaOrg\Contracts\ReturnMethodEnumerationContract;
-use \Spatie\SchemaOrg\Contracts\EnumerationContract;
-use \Spatie\SchemaOrg\Contracts\IntangibleContract;
-use \Spatie\SchemaOrg\Contracts\ThingContract;
+use Spatie\SchemaOrg\Contracts\EnumerationContract;
+use Spatie\SchemaOrg\Contracts\IntangibleContract;
+use Spatie\SchemaOrg\Contracts\ReturnMethodEnumerationContract;
+use Spatie\SchemaOrg\Contracts\ThingContract;
 
 /**
  * Enumerates several types of product return methods.
@@ -26,7 +26,7 @@ class ReturnMethodEnumeration extends BaseType implements ReturnMethodEnumeratio
      * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2880
      */
-     const KeepProduct = 'https://schema.org/KeepProduct';
+    public const KeepProduct = 'https://schema.org/KeepProduct';
 
     /**
      * Specifies that product returns must be made at a kiosk.
@@ -35,7 +35,7 @@ class ReturnMethodEnumeration extends BaseType implements ReturnMethodEnumeratio
      * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2880
      */
-     const ReturnAtKiosk = 'https://schema.org/ReturnAtKiosk';
+    public const ReturnAtKiosk = 'https://schema.org/ReturnAtKiosk';
 
     /**
      * Specifies that product returns must be done by mail.
@@ -44,7 +44,7 @@ class ReturnMethodEnumeration extends BaseType implements ReturnMethodEnumeratio
      * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2880
      */
-     const ReturnByMail = 'https://schema.org/ReturnByMail';
+    public const ReturnByMail = 'https://schema.org/ReturnByMail';
 
     /**
      * Specifies that product returns must be made in a store.
@@ -53,7 +53,7 @@ class ReturnMethodEnumeration extends BaseType implements ReturnMethodEnumeratio
      * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/2880
      */
-     const ReturnInStore = 'https://schema.org/ReturnInStore';
+    public const ReturnInStore = 'https://schema.org/ReturnInStore';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -245,5 +245,4 @@ class ReturnMethodEnumeration extends BaseType implements ReturnMethodEnumeratio
     {
         return $this->setProperty('url', $url);
     }
-
 }

@@ -261,5 +261,4 @@ interface PhysicianContract
     public function usNPI($usNPI);
 
     public function vatID($vatID);
-
 }

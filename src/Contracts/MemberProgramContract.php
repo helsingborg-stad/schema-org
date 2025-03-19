@@ -31,5 +31,4 @@ interface MemberProgramContract
     public function subjectOf($subjectOf);
 
     public function url($url);
-
 }

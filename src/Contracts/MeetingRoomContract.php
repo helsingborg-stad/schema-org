@@ -151,5 +151,4 @@ interface MeetingRoomContract
     public function url($url);
 
     public function yearBuilt($yearBuilt);
-
 }

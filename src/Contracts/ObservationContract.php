@@ -61,5 +61,4 @@ interface ObservationContract
     public function valueReference($valueReference);
 
     public function variableMeasured($variableMeasured);
-
 }

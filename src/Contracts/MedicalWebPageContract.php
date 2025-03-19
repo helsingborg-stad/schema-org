@@ -279,5 +279,4 @@ interface MedicalWebPageContract
     public function workExample($workExample);
 
     public function workTranslation($workTranslation);
-
 }

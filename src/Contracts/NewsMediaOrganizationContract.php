@@ -181,5 +181,4 @@ interface NewsMediaOrganizationContract
     public function vatID($vatID);
 
     public function verificationFactCheckingPolicy($verificationFactCheckingPolicy);
-
 }

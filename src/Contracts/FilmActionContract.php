@@ -53,5 +53,4 @@ interface FilmActionContract
     public function target($target);
 
     public function url($url);
-
 }

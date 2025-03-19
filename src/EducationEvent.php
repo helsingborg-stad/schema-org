@@ -2,9 +2,9 @@
 
 namespace Spatie\SchemaOrg;
 
-use \Spatie\SchemaOrg\Contracts\EducationEventContract;
-use \Spatie\SchemaOrg\Contracts\EventContract;
-use \Spatie\SchemaOrg\Contracts\ThingContract;
+use Spatie\SchemaOrg\Contracts\EducationEventContract;
+use Spatie\SchemaOrg\Contracts\EventContract;
+use Spatie\SchemaOrg\Contracts\ThingContract;
 
 /**
  * Event type: Education event.
@@ -923,5 +923,4 @@ class EducationEvent extends BaseType implements EducationEventContract, EventCo
     {
         return $this->setProperty('workPerformed', $workPerformed);
     }
-
 }

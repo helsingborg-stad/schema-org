@@ -291,5 +291,4 @@ interface MediaObjectContract
     public function workExample($workExample);
 
     public function workTranslation($workTranslation);
-
 }

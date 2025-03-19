@@ -259,5 +259,4 @@ interface WebPageElementContract
     public function workTranslation($workTranslation);
 
     public function xpath($xpath);
-
 }

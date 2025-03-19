@@ -2,11 +2,11 @@
 
 namespace Spatie\SchemaOrg;
 
-use \Spatie\SchemaOrg\Contracts\ReportedDoseScheduleContract;
-use \Spatie\SchemaOrg\Contracts\DoseScheduleContract;
-use \Spatie\SchemaOrg\Contracts\MedicalEntityContract;
-use \Spatie\SchemaOrg\Contracts\MedicalIntangibleContract;
-use \Spatie\SchemaOrg\Contracts\ThingContract;
+use Spatie\SchemaOrg\Contracts\DoseScheduleContract;
+use Spatie\SchemaOrg\Contracts\MedicalEntityContract;
+use Spatie\SchemaOrg\Contracts\MedicalIntangibleContract;
+use Spatie\SchemaOrg\Contracts\ReportedDoseScheduleContract;
+use Spatie\SchemaOrg\Contracts\ThingContract;
 
 /**
  * A patient-reported or observed dosing schedule for a drug or supplement.
@@ -394,5 +394,4 @@ class ReportedDoseSchedule extends BaseType implements ReportedDoseScheduleContr
     {
         return $this->setProperty('url', $url);
     }
-
 }

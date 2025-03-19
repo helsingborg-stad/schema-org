@@ -43,5 +43,4 @@ interface TripContract
     public function tripOrigin($tripOrigin);
 
     public function url($url);
-
 }

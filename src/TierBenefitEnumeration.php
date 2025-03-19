@@ -2,10 +2,10 @@
 
 namespace Spatie\SchemaOrg;
 
-use \Spatie\SchemaOrg\Contracts\TierBenefitEnumerationContract;
-use \Spatie\SchemaOrg\Contracts\EnumerationContract;
-use \Spatie\SchemaOrg\Contracts\IntangibleContract;
-use \Spatie\SchemaOrg\Contracts\ThingContract;
+use Spatie\SchemaOrg\Contracts\EnumerationContract;
+use Spatie\SchemaOrg\Contracts\IntangibleContract;
+use Spatie\SchemaOrg\Contracts\ThingContract;
+use Spatie\SchemaOrg\Contracts\TierBenefitEnumerationContract;
 
 /**
  * An enumeration of possible benefits as part of a loyalty (members) program.
@@ -25,7 +25,7 @@ class TierBenefitEnumeration extends BaseType implements TierBenefitEnumerationC
      * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/3563
      */
-     const TierBenefitLoyaltyPoints = 'https://schema.org/TierBenefitLoyaltyPoints';
+    public const TierBenefitLoyaltyPoints = 'https://schema.org/TierBenefitLoyaltyPoints';
 
     /**
      * Benefit of the tier is a members-only price.
@@ -34,7 +34,7 @@ class TierBenefitEnumeration extends BaseType implements TierBenefitEnumerationC
      * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/3563
      */
-     const TierBenefitLoyaltyPrice = 'https://schema.org/TierBenefitLoyaltyPrice';
+    public const TierBenefitLoyaltyPrice = 'https://schema.org/TierBenefitLoyaltyPrice';
 
     /**
      * Benefit of the tier is members-only returns, for example free unlimited
@@ -44,7 +44,7 @@ class TierBenefitEnumeration extends BaseType implements TierBenefitEnumerationC
      * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/3563
      */
-     const TierBenefitLoyaltyReturns = 'https://schema.org/TierBenefitLoyaltyReturns';
+    public const TierBenefitLoyaltyReturns = 'https://schema.org/TierBenefitLoyaltyReturns';
 
     /**
      * Benefit of the tier is a members-only shipping price or speed (for
@@ -54,7 +54,7 @@ class TierBenefitEnumeration extends BaseType implements TierBenefitEnumerationC
      * @see https://pending.schema.org
      * @link https://github.com/schemaorg/schemaorg/issues/3563
      */
-     const TierBenefitLoyaltyShipping = 'https://schema.org/TierBenefitLoyaltyShipping';
+    public const TierBenefitLoyaltyShipping = 'https://schema.org/TierBenefitLoyaltyShipping';
 
     /**
      * An additional type for the item, typically used for adding more specific
@@ -246,5 +246,4 @@ class TierBenefitEnumeration extends BaseType implements TierBenefitEnumerationC
     {
         return $this->setProperty('url', $url);
     }
-
 }

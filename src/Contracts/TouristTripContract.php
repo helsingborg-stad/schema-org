@@ -45,5 +45,4 @@ interface TouristTripContract
     public function tripOrigin($tripOrigin);
 
     public function url($url);
-
 }

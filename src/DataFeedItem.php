@@ -2,9 +2,9 @@
 
 namespace Spatie\SchemaOrg;
 
-use \Spatie\SchemaOrg\Contracts\DataFeedItemContract;
-use \Spatie\SchemaOrg\Contracts\IntangibleContract;
-use \Spatie\SchemaOrg\Contracts\ThingContract;
+use Spatie\SchemaOrg\Contracts\DataFeedItemContract;
+use Spatie\SchemaOrg\Contracts\IntangibleContract;
+use Spatie\SchemaOrg\Contracts\ThingContract;
 
 /**
  * A single item within a larger data feed.
@@ -263,5 +263,4 @@ class DataFeedItem extends BaseType implements DataFeedItemContract, IntangibleC
     {
         return $this->setProperty('url', $url);
     }
-
 }

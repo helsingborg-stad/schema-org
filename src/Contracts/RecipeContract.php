@@ -293,5 +293,4 @@ interface RecipeContract
     public function workTranslation($workTranslation);
 
     public function yield($yield);
-
 }

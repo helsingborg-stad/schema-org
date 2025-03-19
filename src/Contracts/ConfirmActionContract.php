@@ -63,5 +63,4 @@ interface ConfirmActionContract
     public function target($target);
 
     public function url($url);
-
 }

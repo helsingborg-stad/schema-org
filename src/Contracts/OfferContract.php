@@ -135,5 +135,4 @@ interface OfferContract
     public function validThrough($validThrough);
 
     public function warranty($warranty);
-
 }

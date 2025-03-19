@@ -61,5 +61,4 @@ interface CheckOutActionContract
     public function target($target);
 
     public function url($url);
-
 }
