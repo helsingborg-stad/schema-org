@@ -27,5 +27,4 @@ interface IPTCDigitalSourceEnumerationContract
     public function subjectOf($subjectOf);
 
     public function url($url);
-
 }

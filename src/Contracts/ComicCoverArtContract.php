@@ -283,5 +283,4 @@ interface ComicCoverArtContract
     public function workExample($workExample);
 
     public function workTranslation($workTranslation);
-
 }

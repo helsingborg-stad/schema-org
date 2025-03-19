@@ -273,5 +273,4 @@ interface HowToContract
     public function workTranslation($workTranslation);
 
     public function yield($yield);
-
 }

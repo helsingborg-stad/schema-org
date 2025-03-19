@@ -2,8 +2,8 @@
 
 namespace Spatie\SchemaOrg;
 
-use \Spatie\SchemaOrg\Contracts\ProgressStatusContract;
-use \Spatie\SchemaOrg\Contracts\ThingContract;
+use Spatie\SchemaOrg\Contracts\ProgressStatusContract;
+use Spatie\SchemaOrg\Contracts\ThingContract;
 
 /**
  * Progress status
@@ -259,5 +259,4 @@ class ProgressStatus extends BaseType implements ProgressStatusContract, ThingCo
     {
         return $this->setProperty('url', $url);
     }
-
 }

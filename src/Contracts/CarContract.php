@@ -225,5 +225,4 @@ interface CarContract
     public function wheelbase($wheelbase);
 
     public function width($width);
-
 }

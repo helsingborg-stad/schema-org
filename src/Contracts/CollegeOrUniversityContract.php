@@ -239,5 +239,4 @@ interface CollegeOrUniversityContract
     public function url($url);
 
     public function vatID($vatID);
-
 }

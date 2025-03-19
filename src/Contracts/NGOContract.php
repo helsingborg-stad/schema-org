@@ -173,5 +173,4 @@ interface NGOContract
     public function url($url);
 
     public function vatID($vatID);
-
 }

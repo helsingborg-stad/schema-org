@@ -53,5 +53,4 @@ interface DiscoverActionContract
     public function target($target);
 
     public function url($url);
-
 }

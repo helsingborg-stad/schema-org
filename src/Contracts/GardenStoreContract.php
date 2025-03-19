@@ -247,5 +247,4 @@ interface GardenStoreContract
     public function url($url);
 
     public function vatID($vatID);
-
 }

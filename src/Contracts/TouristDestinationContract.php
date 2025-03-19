@@ -125,5 +125,4 @@ interface TouristDestinationContract
     public function touristType($touristType);
 
     public function url($url);
-
 }

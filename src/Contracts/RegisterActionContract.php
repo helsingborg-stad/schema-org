@@ -53,5 +53,4 @@ interface RegisterActionContract
     public function target($target);
 
     public function url($url);
-
 }

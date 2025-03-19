@@ -103,5 +103,4 @@ interface JobPostingContract
     public function validThrough($validThrough);
 
     public function workHours($workHours);
-
 }

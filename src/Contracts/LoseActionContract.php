@@ -55,5 +55,4 @@ interface LoseActionContract
     public function url($url);
 
     public function winner($winner);
-
 }

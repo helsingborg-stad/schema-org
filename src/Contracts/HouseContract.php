@@ -151,5 +151,4 @@ interface HouseContract
     public function url($url);
 
     public function yearBuilt($yearBuilt);
-
 }

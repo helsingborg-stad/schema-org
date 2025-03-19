@@ -275,5 +275,4 @@ interface ContactPageContract
     public function workExample($workExample);
 
     public function workTranslation($workTranslation);
-
 }

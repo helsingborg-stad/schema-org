@@ -111,5 +111,4 @@ interface UserPlusOnesContract
     public function workFeatured($workFeatured);
 
     public function workPerformed($workPerformed);
-
 }

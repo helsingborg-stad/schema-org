@@ -275,5 +275,4 @@ interface RecommendationContract
     public function workExample($workExample);
 
     public function workTranslation($workTranslation);
-
 }

@@ -83,5 +83,4 @@ interface ExerciseActionContract
     public function toLocation($toLocation);
 
     public function url($url);
-
 }

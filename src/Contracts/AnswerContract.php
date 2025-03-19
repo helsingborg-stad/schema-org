@@ -265,5 +265,4 @@ interface AnswerContract
     public function workExample($workExample);
 
     public function workTranslation($workTranslation);
-
 }

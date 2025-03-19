@@ -273,5 +273,4 @@ interface ReviewContract
     public function workExample($workExample);
 
     public function workTranslation($workTranslation);
-
 }

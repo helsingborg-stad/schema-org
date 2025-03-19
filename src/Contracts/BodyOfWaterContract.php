@@ -121,5 +121,4 @@ interface BodyOfWaterContract
     public function tourBookingPage($tourBookingPage);
 
     public function url($url);
-
 }

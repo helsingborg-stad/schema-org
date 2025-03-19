@@ -123,5 +123,4 @@ interface BridgeContract
     public function tourBookingPage($tourBookingPage);
 
     public function url($url);
-
 }
