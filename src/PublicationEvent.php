@@ -325,17 +325,17 @@ class PublicationEvent extends BaseType implements PublicationEventContract, Eve
     }
 
     /**
-     * A list of events that are part of the same series as the event.
+     * One or more event ids that are part of the same series.
      *
-     * @param \Spatie\SchemaOrg\Contracts\EventContract|\Spatie\SchemaOrg\Contracts\EventContract[] $eventsSeries
+     * @param string|string[] $eventsInSameSeries
      *
      * @return static
      *
-     * @see municipio:eventsSeries
+     * @see municipio:eventsInSameSeries
      */
-    public function eventsSeries($eventsSeries)
+    public function eventsInSameSeries($eventsInSameSeries)
     {
-        return $this->setProperty('eventsSeries', $eventsSeries);
+        return $this->setProperty('eventsInSameSeries', $eventsInSameSeries);
     }
 
     /**

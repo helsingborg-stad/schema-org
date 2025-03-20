@@ -42,7 +42,7 @@ interface PublicationEventContract
 
     public function eventStatus($eventStatus);
 
-    public function eventsSeries($eventsSeries);
+    public function eventsInSameSeries($eventsInSameSeries);
 
     public function free($free);
 
