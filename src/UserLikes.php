@@ -326,9 +326,9 @@ class UserLikes extends BaseType implements UserLikesContract, EventContract, Th
     }
 
     /**
-     * One or more event ids that are part of the same series.
+     * One or more events that are part of the same series.
      *
-     * @param string|string[] $eventsInSameSeries
+     * @param \Spatie\SchemaOrg\Contracts\EventContract|\Spatie\SchemaOrg\Contracts\EventContract[] $eventsInSameSeries
      *
      * @return static
      *
